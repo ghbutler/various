@@ -350,7 +350,7 @@ nj %>% ggplot() +
                limits = c(as.Date('2020-01-23'), as.Date('2020-02-13')))
 ```
 
-![](ncov_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+![](https://github.com/ghbutler/various/blob/master/unnamed-chunk-13-1.png?raw=true)<!-- -->
 
 The line that matters most here is the blue one because it plots the
 number of confirmed cases in Nanjing on each day since data started
