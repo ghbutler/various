@@ -53,7 +53,7 @@ video %>% filter(like != c('No response', 'Never played')) %>% ggplot() +
         axis.title.x = element_blank())
 ```
 
-![](lab-1-demo_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](https://github.com/ghbutler/various/blob/master/unnamed-chunk-3-1.png?raw=true)<!-- -->
 
 ### Significance
 
