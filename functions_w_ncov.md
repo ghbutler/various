@@ -84,7 +84,7 @@ nj_plt <- nj %>% ggplot() +
 nj_plt
 ```
 
-![](functions_w_ncov_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](https://github.com/ghbutler/various/blob/master/unnamed-chunk-2-1.png?raw=true)<!-- -->
 
 The graph we produced in the last tutorial for the `nCov2019` package
 was pretty cool and informative, at least in my opinion. It would also
@@ -147,7 +147,7 @@ plot_cases <- function(city, province, data){
 plot_cases('Nanjing', 'Jiangsu', data)
 ```
 
-![](functions_w_ncov_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](https://github.com/ghbutler/various/blob/master/unnamed-chunk-3-1.png?raw=true)<!-- -->
 
 The result we got is pretty obviously not what we are looking for. What
 went wrong? Perhaps comparing this result to the original example on
@@ -166,7 +166,7 @@ being used to plot the function.
 ggarrange(nj_plt, plot_cases('Nanjing', 'Jiangsu', data))
 ```
 
-![](functions_w_ncov_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](https://github.com/ghbutler/various/blob/master/unnamed-chunk-4-1.png?raw=true)<!-- -->
 
 ### Debugging our function
 
@@ -263,7 +263,7 @@ plot_cases <- function(city, province, data){
 plot_cases('Nanjing', 'Jiangsu', data)
 ```
 
-![](functions_w_ncov_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](https://github.com/ghbutler/various/blob/master/unnamed-chunk-7-1.png?raw=true)<!-- -->
 
 ### The final version of our function
 
@@ -312,7 +312,7 @@ plot_cases <- function(city, province, data){
 plot_cases('Nanjing', 'Jiangsu', data)
 ```
 
-![](functions_w_ncov_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](https://github.com/ghbutler/various/blob/master/unnamed-chunk-8-1.png?raw=true)<!-- -->
 
 ### Using our function for other Chinese cities
 
@@ -341,7 +341,7 @@ still quite severe, it looks like the worst of it may be over.
 plot_cases('Huanggang', 'Hubei', data)
 ```
 
-![](functions_w_ncov_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](https://github.com/ghbutler/various/blob/master/unnamed-chunk-9-1.png?raw=true)<!-- -->
 
 After my time in Huanggang, I moved to Zhengzhou. I wanted to move to a
 big city and that was the first one where I found a job, so off I went,
@@ -357,7 +357,7 @@ below, Zhengzhou is getting things under control too.
 plot_cases('Zhengzhou', 'Henan', data)
 ```
 
-![](functions_w_ncov_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](https://github.com/ghbutler/various/blob/master/unnamed-chunk-10-1.png?raw=true)<!-- -->
 
 Another city I want to look at is Harbin. I moved to Harbin after my
 semester in Zhengzhou and I stayed there for about five and a half
@@ -372,7 +372,7 @@ cases under control, at least among cities we’ve looked at so far.
 plot_cases('Harbin', 'Heilongjiang', data)
 ```
 
-![](functions_w_ncov_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](https://github.com/ghbutler/various/blob/master/unnamed-chunk-11-1.png?raw=true)<!-- -->
 
 The last city I want to consider is Shenzhen, a city I’m quite fond of
 and have spent a great deal of time in and once considered moving to.
@@ -384,7 +384,7 @@ the city in a couple of more weeks.
 plot_cases('Shenzhen', 'Guangdong', data)
 ```
 
-![](functions_w_ncov_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![](https://github.com/ghbutler/various/blob/master/unnamed-chunk-12-1.png?raw=true)<!-- -->
 
 There are lots of factors that influence the differing rates of success
 against coronavirus in the cities we’ve considered here. One is
