@@ -98,7 +98,7 @@ theoretical_plot <- theoretical_dat %>% ggplot() +
 ggarrange(theoretical_plot, empirical_plot)
 ```
 
-![](binomial-distribution-demo_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](https://github.com/ghbutler/various/blob/master/unnamed-chunk-4-1.png?raw=true)<!-- -->
 
 ### Theoretical and empirical lower tail probabilities
 
@@ -165,7 +165,7 @@ theoretical_plot <- theoretical_dat %>% ggplot() +
 ggarrange(theoretical_plot, empirical_plot)
 ```
 
-![](binomial-distribution-demo_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](https://github.com/ghbutler/various/blob/master/unnamed-chunk-6-1.png)<!-- -->
 
 ### Theoretical and empirical upper tail probabilities
 
@@ -225,7 +225,7 @@ theoretical_dat %>% ggplot() +
        subtitle = 'b(10, 0.5)')
 ```
 
-![](binomial-distribution-demo_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](https://github.com/ghbutler/various/blob/master/unnamed-chunk-8-1.png)<!-- -->
 
 ### Cumulative distribution functions (CDF)
 
@@ -258,4 +258,4 @@ empirical_cdf <- data.frame(x = rbinom(n = 10000, size = 10, prob = 0.5)) %>% gg
 ggarrange(theoretical_cdf, empirical_cdf)
 ```
 
-![](binomial-distribution-demo_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](https://github.com/ghbutler/various/blob/master/unnamed-chunk-9-1.png)<!-- -->
